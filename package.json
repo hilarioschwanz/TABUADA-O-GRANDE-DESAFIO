@@ -1,0 +1,36 @@
+{
+  "name": "desafio-tabuada",
+  "version": "2.0.0",
+  "description": "Plataforma interativa para desafios de tabuada com gamificação",
+  "private": true,
+  "type": "module",
+  "homepage": "https://SEU-USUARIO.github.io/desafio-tabuada",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.4.7",
+    "lucide-react": "^0.533.0",
+    "clsx": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.5.2",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
